@@ -1,0 +1,4 @@
+SET ReadEase$Dir <Obey$Dir>
+WimpSlot -min 64K -max 64K
+IconSprites <Obey$Dir>.!Sprites
+Run <Obey$Dir>.!RunImage

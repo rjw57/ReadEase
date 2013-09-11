@@ -1,0 +1,59 @@
+                       ReadEase
+                       ~~~~~~~~
+
+By Richard Wareham
+
+ ReadEase is a program which calculates how easy a
+certain text file is to read. It gives as an output
+a thing called a 'Reading Ease Quotient'. The higher 
+this number the more difficult it is to read. The 
+average age of a child that could read this is the 
+same as the Reading Ease Quotient for values less 
+than 16. After this the numbers are just a measure 
+of how difficult the file is to read. For example 
+say for two files you had the figures 7.6 and 23.4. 
+The former value can be used as the average age but 
+the second can't. You can however compare the two 
+values as Reading Ease Quotients have no upper 
+limit.
+
+How Does it Work Out the Reading Ease Quotient?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ The program works out the Reading Ease Quotient by 
+using a formula called the FOG formula. It was 
+invented by an american psycologist named Gunning in
+1952. The formula is :-
+
+   F = 0.4(W + P)+5
+
+ Where F is the Reading Ease Quotient, W is the mean
+number of words per sentence and P is the percentage
+of words with more than 3 or more syllables
+(excluding those ending in -ed or -ing). This is
+the formula at the heart of ReadEase.
+
+How Does it Work Out How Many Syllables are in a
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Word?
+~~~~~
+ The formula is complex. This however is of my own
+creation. It uses several rules to enumerate the 
+number of syllables in the word. I have included a
+second program named '!Syllables'. This produces a
+printout (so be sure to have your printer connected)
+of the breakdown of a typed in sentence. It shows
+how the program deciphers the syllable clues. Every
+time it finds a clue it shows it on the printout.
+This will tell you if it adds or subracts one from 
+the final amount. It shouldn't be too difficult to
+see how it works.
+
+Loading a file
+~~~~~~~~~~~~~~
+ This couldn't be simpler. Just drag any text file
+onto the icon. It will change from having a cross
+through it to being clear. A window showing the 
+results will apper. From this you can read off the
+Reading Ease Quotient. You can load files into
+ReadEase as many times as you want. It will clear
+the last file and replace int with the new file.
