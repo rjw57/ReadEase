@@ -43,7 +43,7 @@ printout (so be sure to have your printer connected)
 of the breakdown of a typed in sentence. It shows
 how the program deciphers the syllable clues. Every
 time it finds a clue it shows it on the printout.
-This will tell you if it adds or subracts one from 
+This will tell you if it adds or subtracts one from 
 the final amount. It shouldn't be too difficult to
 see how it works.
 
