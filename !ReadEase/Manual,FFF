@@ -1,6 +1,10 @@
 #ReadEase
 
-By Richard Wareham
+By Richard Wareham <rjw57@cantab.net>
+
+**Note:** This program was written for RISC OS and first appeared in ``*info``
+in Acorn User magazine in October 1994. It is written in BBC Basic and is no
+longer actively maintained.
 
  ReadEase is a program which calculates how easy a
 certain text file is to read. It gives as an output
