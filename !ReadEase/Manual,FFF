@@ -1,5 +1,4 @@
-                       ReadEase
-                       ~~~~~~~~
+#ReadEase
 
 By Richard Wareham
 
@@ -17,14 +16,16 @@ the second can't. You can however compare the two
 values as Reading Ease Quotients have no upper 
 limit.
 
-How Does it Work Out the Reading Ease Quotient?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# How Does it Work Out the Reading Ease Quotient?
+
  The program works out the Reading Ease Quotient by 
 using a formula called the FOG formula. It was 
 invented by an american psycologist named Gunning in
 1952. The formula is :-
 
+```
    F = 0.4(W + P)+5
+```
 
  Where F is the Reading Ease Quotient, W is the mean
 number of words per sentence and P is the percentage
@@ -32,10 +33,8 @@ of words with more than 3 or more syllables
 (excluding those ending in -ed or -ing). This is
 the formula at the heart of ReadEase.
 
-How Does it Work Out How Many Syllables are in a
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Word?
-~~~~~
+# How Does it Work Out How Many Syllables are in a word?
+
  The formula is complex. This however is of my own
 creation. It uses several rules to enumerate the 
 number of syllables in the word. I have included a
@@ -48,8 +47,8 @@ This will tell you if it adds or subracts one from
 the final amount. It shouldn't be too difficult to
 see how it works.
 
-Loading a file
-~~~~~~~~~~~~~~
+# Loading a file
+
  This couldn't be simpler. Just drag any text file
 onto the icon. It will change from having a cross
 through it to being clear. A window showing the 
